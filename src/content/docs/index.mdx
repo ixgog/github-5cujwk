@@ -1,0 +1,36 @@
+---
+title: 一个直播录制工具
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: 支持抖音、快手、bilibili等多个平台!
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: 下载
+      link: /guides/example/
+      icon: right-arrow
+    - text: 使用文档
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 特性
+
+<CardGrid stagger>
+  <Card title="简单易用" icon="pencil">
+    一键开始录制，多种文件格式保存
+  </Card>
+  <Card title="监控开播并自动录制" icon="add-document">
+    实时监控直播状态，主播开始直播自动录制
+  </Card>
+  <Card title="支持多个平台直播录制" icon="setting">
+    一站式支持抖音、快手、bilibili等多家平台录制
+  </Card>
+  <Card title="更多功能尽请期待" icon="open-book">
+    ...
+  </Card>
+</CardGrid>
